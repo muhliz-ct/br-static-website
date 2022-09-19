@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border{
+    width: 1002.4px;
+    height: 55px;
+    background-color: #FFFFFF;
+    float: left;
+    position: fixed;
+    z-index: 1000;
+}
+
+.main-spec{
+    width :1068.8;
+    height: 722px;
+    background-color: #184680;
+}
+
+.logo{
+    display: inline-block;
+    background-image: url(../img/Baskin-Robbins-Logo-small286x286.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 71px;
+    margin: 6px 20px 6px 30px;
+    position: relative;
+}
+
+.links{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    color: #4a4a4a;
+    width: 125px;
+    height: 55px;
+}
+
+.links ul li{
+    font-family: open sans-serif;
+    font-size: 14px;
+    
+}
+
+.links:hover{
+    color: #e25fbd;
+}
+
+img{
+    float:right;
+   }
+
+.header ul li{
+    display: flex;
+    display: inline-flex;
+    padding: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.buy{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-family: open sans-serif;
+    
+}
+
+
+button {
+    
+    color: #fff;
+    background-color: #e25fbd;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: none;
+    font-size: 14px;
+ }
+
+ button:hover,.logo:hover{
+    cursor: pointer;
+ }
+ 
+ h1{
+    color: #ffffff;
+    padding: 219px 0px 0px 63px;
+    font-size: 70px;
+    width: 1026px;
+    height: 199.2px;
+    font-weight: bold;
+    line-height: 0.9;
+    transform: scale(.9,0.8);
+ }
+
+.second{
+    width :1068.8;
+    height: 722px;
+    background-color: #e694bb;
+    
+}
+
+.third{
+    width :1068.8;
+    height: 1050px;
+    background-color: #fff;
+}
+
+.pic1{
+    float: left;
+    margin-left: 241px;
+    margin-top: 68px;
+    height: 469px;
+    width: 469px;
+}
+
+.pic2{
+    float: left;
+    margin-left: 50px;
+    margin-top: 68px;
+    height: 469px;
+    width: 469px;
+}
+
+.fourth{
+    width :100%;
+    background-color: #fff;
+    margin-top: 200px;
+    float: left;
+}
+
+.text1{
+    margin-top: 50px;
+    float: left;
+    font-family: 'OpenSans-Extrabold', sans-serf;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 0px 0px 700px;
+    
+}
+
+.text2{
+    margin-top: 170px;
+    float: left;
+    font-family: 'OpenSans-Extrabold', sans-serf;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 338px;
+    text-transform: capitalize;
+}
+
+.pic3{
+   height: 68px;
+   margin-top: 112px;
+   float: left;
+   margin-left: -69px;
+}
+
+.search{
+    background: #E45BBF;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0px;
+    height: 42px;
+    width: 150px;
+    margin-top: 240px;
+    float: left;
+    margin-left: -725px;
+}
+
+.search:hover{
+    cursor: pointer;
+    background-color: #3a3a3a;
+    color: #FFF;
+}
+
+.text3{
+    color: #4a4a4a;
+    font-family: 'open_sansregular', sans-serf;
+    font-size: 28px;
+    margin-top: -36px;
+    float: right;
+    margin-right: 880px;
+}
+
+.text4{
+    margin-top: 24px;
+    float: right;
+    margin-right: 710px;
+    height: 42px;
+    width: 145px;
+    border: 2px solid #E45BBF;
+}
+
+.option{
+    margin-top: -42px;
+    float: right;
+    margin-right: 595px;
+    height: 42px;
+    color: #E45BBF;
+    border: 2px solid #E45BBF;
+}
+
+
+.find{
+    background: #E45BBF;
+    color: #ffffff;
+    font-family: 'open_sansregular', sans-serf;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    height: 42px;
+    margin-top: -42px;
+    float: right;
+    margin-right: 495px;
+}
+
+.find:hover{
+    cursor: pointer;
+    background-color: #3a3a3a;
+    color: #FFF;
+}
+
+.line{
+    
+    margin-top: 46px;
+    float: right;
+    margin-right: 520px;
+    width: 30%;
+    border: 0;
+    height: 2px;
+    background: #E45BBF;
+
+}
+.text5{
+    color: #4a4a4a;
+    font-family: 'open_sansregular', sans-serf;
+    font-size: 33px;
+    margin-top: 25px;
+    float: right;
+    margin-right: 470px;
+}
+
+
+.fifth{
+    margin-top: 100px;
+    float: right;
+    margin-right: 332px;
+    
+    
+}
+
+.sixth{
+    margin-top: 126px;
+    float: right;
+    margin-right: 332px;
+}
+
+.seventh{
+    margin-top: 126px;
+    float: right;
+    margin-right: 332px;
+}
+
+.eighth{
+    margin-top: 126px;
+    float: right;
+    margin-right: 332px;
+}
+
+.nine{
+    margin-top: 126px;
+    float: right;
+    margin-right: 332px;
+}
+
+
